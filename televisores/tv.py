@@ -9,6 +9,9 @@ class TV:
         self.control = None
         TV.numTV += 1
 
+    def getEstado(self):
+        return self.estado
+
     def setMarca(self,marca):
         self.marca = marca
     
